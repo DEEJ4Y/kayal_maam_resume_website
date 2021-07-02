@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --main-bg-color: black;
+  --main-txt-color: white;
+  --accent-bg-color: white;
+  --accent-txt-color: black;
+}
