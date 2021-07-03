@@ -28,6 +28,7 @@ a:hover {
 
 .container-fluid {
   padding: 0rem 1.5rem;
+  max-width: 64rem;
 }
 
 /* Classes for global theme */

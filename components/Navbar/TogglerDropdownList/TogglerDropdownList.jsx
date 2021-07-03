@@ -9,15 +9,12 @@ const TogglerDropdownList = (props) => {
       style={props.style ? props.style : ""}
     >
       <ul className="navbar-nav">
-        <li className="nav-item text-dark">
-          <a>Something</a>
-        </li>
-        <li className="nav-item text-dark">
-          <a>Something Else</a>
-        </li>
+        <ListItem href="https://www.google.com/" name="Something" />
+        <ListItem href="https://www.google.com/" name="Something Else" />
         <ListItem
           href="https://www.google.com/"
           name="Something something Else"
+          last
         />
       </ul>
     </div>

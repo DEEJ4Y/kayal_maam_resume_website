@@ -1,9 +1,17 @@
 .toggler-dropdown-list {
-  border: 1px solid grey;
   border-radius: 0.25rem;
   position: absolute;
   top: 3.75rem;
-  right: 0.25rem;
+
+  right: calc((calc((100vw - 1024px) / 2)) + 16px);
   padding: 0.5rem 1rem;
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  background-color: white;
+}
+
+@media (max-width: 992px) {
+  .toggler-dropdown-list {
+    right: 0.25rem;
+  }
 }

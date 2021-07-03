@@ -1,0 +1,10 @@
+.list-item-hr {
+  color: black;
+  border: 1px solid black;
+  margin: 0.5rem;
+}
+
+.list-item {
+  color: black;
+  background-color: white;
+}
