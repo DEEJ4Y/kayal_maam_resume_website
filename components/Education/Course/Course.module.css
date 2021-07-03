@@ -17,3 +17,9 @@
   font-weight: 300;
   font-size: 1.25rem;
 }
+
+@media (max-width: 768px) {
+  .course-name {
+    margin-top: 2rem;
+  }
+}
