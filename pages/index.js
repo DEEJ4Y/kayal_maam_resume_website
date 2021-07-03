@@ -1,8 +1,7 @@
-import styles from "../styles/Home.module.css";
-
 import HeadTags from "../components/Head/HeadTags";
 import Navbar from "../components/Navbar/Navbar";
 import TitleSection from "../components/TitleSection/TitleSection";
+import Education from "../components/Education/Education";
 
 export default function Home() {
   return (
@@ -11,6 +10,7 @@ export default function Home() {
       <Navbar />
       <main>
         <TitleSection />
+        <Education />
       </main>
     </div>
   );

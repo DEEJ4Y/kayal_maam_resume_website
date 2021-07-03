@@ -1,0 +1,19 @@
+.course-container {
+  text-align: center;
+}
+
+.course-name {
+  font-weight: 800;
+  font-size: 2.416rem;
+  margin-bottom: 0;
+}
+
+.subject-name {
+  font-weight: 700;
+  font-size: 1.8333rem;
+}
+
+.year-and-college {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
