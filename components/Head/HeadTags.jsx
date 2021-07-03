@@ -21,6 +21,15 @@ const HeadTags = () => {
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
       <link rel="icon" href="/favicon.ico" />
+
+      {/* Fonts */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      {/* eslint-disable-next-line @next/next/no-page-custom-font*/}
+      <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&display=swap"
+        rel="stylesheet"
+      />
     </Head>
   );
 };
