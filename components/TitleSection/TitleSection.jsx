@@ -28,7 +28,9 @@ const TitleSection = () => {
             <p className={styles["title-desc"]}>
               Assistant Professor (S.G), School of Computing, SRMIST
             </p>
-            <button className={`btn btn-dark btn-lg ${styles["title-button"]}`}>
+            <button
+              className={`btn bg-theme text-theme btn-lg ${styles["title-button"]}`}
+            >
               Contact Me
             </button>
           </div>
