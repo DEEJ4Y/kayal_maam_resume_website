@@ -1,10 +1,10 @@
-import HeadTags from "../components/Head/HeadTags";
-import Navbar from "../components/Navbar/Navbar";
-import TitleSection from "../components/TitleSection/TitleSection";
-import Education from "../components/Education/Education";
-import Experience from "../components/Experience/Experience";
-import Skills from "../components/Skills/Skills";
-import Misc from "../components/Misc/Misc";
+import HeadTags from "../components/Index/Head/HeadTags";
+import Navbar from "../components/Index/Navbar/Navbar";
+import TitleSection from "../components/Index/TitleSection/TitleSection";
+import Education from "../components/Index/Education/Education";
+import Experience from "../components/Index/Experience/Experience";
+import Skills from "../components/Index/Skills/Skills";
+import Misc from "../components/Index/Misc/Misc";
 
 export default function Home() {
   return (
