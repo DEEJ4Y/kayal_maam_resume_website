@@ -4,6 +4,7 @@ import TitleSection from "../components/TitleSection/TitleSection";
 import Education from "../components/Education/Education";
 import Experience from "../components/Experience/Experience";
 import Skills from "../components/Skills/Skills";
+import Misc from "../components/Misc/Misc";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Education />
         <Experience />
         <Skills />
+        <Misc />
       </main>
     </div>
   );
