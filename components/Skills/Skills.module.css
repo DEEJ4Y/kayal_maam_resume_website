@@ -7,7 +7,7 @@
 .subheading {
   font-weight: 800;
   font-size: 2.3333rem;
-  margin: 1.5rem 0 2.5rem;
+  margin: 2.5rem 0;
   padding-left: 2rem;
 }
 
@@ -15,8 +15,18 @@
   padding: 4rem 0;
 }
 
+.additional-skills {
+  padding-left: 3rem;
+  font-weight: 300;
+  font-size: 1.666rem;
+}
+
 @media (max-width: 768px) {
   .subheading {
     padding-left: 1rem;
+  }
+
+  .additional-skills {
+    padding-left: 1.5rem;
   }
 }

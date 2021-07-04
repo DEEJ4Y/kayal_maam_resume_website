@@ -28,6 +28,25 @@ const Skills = () => {
           <SkillItem text="Python" imgUrl="/images/skills/py.jpg" space={4} />
           <SkillItem text="C" imgUrl="/images/skills/c.png" space={4} />
         </div>
+
+        <h1 className={styles["subheading"]}>Additional Skills</h1>
+        <div className={styles["additional-skills"]}>
+          <ul>
+            <li>Good Organizing, Coordination and Leadership skills.</li>
+            <li>Inspirational Speaker and Life Coach.</li>
+            <li>Good at Master/Mistress of Ceremony/Compering.</li>
+            <li>Good at Proposal writing and submissions.</li>
+            <li>
+              Good communication skills, mentoring skills, counseling skills,
+              motivational skills.
+            </li>
+            <li>Dynamic strategic planner, Innovative thinker.</li>
+            <li>
+              To some extent understands human psychology and handle
+              accordingly, acquired through book reading and experience.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
