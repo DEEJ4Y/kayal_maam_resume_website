@@ -31,6 +31,10 @@ a:hover {
   max-width: 64rem;
 }
 
+.container-padding {
+  padding: 4rem 0;
+}
+
 /* Classes for global theme */
 .bg-theme {
   background-color: var(--main-bg-color);

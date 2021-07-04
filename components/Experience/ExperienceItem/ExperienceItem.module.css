@@ -1,0 +1,27 @@
+.experience-item-container {
+  margin-top: 1rem;
+  padding-left: 4rem;
+}
+
+.experience-role {
+  font-weight: 700;
+  font-size: 1.8333rem;
+  margin-bottom: 0;
+}
+
+.experience-duration {
+  font-weight: 300;
+  font-size: 1.3333rem;
+  font-style: italic;
+  padding-top: 0;
+}
+
+.experience-duration-current {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .experience-item-container {
+    padding-left: 2rem;
+  }
+}

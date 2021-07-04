@@ -2,6 +2,7 @@ import HeadTags from "../components/Head/HeadTags";
 import Navbar from "../components/Navbar/Navbar";
 import TitleSection from "../components/TitleSection/TitleSection";
 import Education from "../components/Education/Education";
+import Experience from "../components/Experience/Experience";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main>
         <TitleSection />
         <Education />
+        <Experience />
       </main>
     </div>
   );
