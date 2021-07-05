@@ -3,11 +3,9 @@ import Image from "next/image";
 
 const Misc = () => {
   return (
-    <div
-      className={`bg-accent text-accent container-padding ${styles["text-size"]}`}
-    >
+    <div className={`bg-accent text-accent container-padding`}>
       <div className="container-fluid">
-        <h1 className={styles["heading"]}>Funded Projects</h1>
+        <h2 className={styles["heading"]}>Funded Projects</h2>
         <div className={styles["list-wrapper"]}>
           <ul>
             <li>
@@ -23,7 +21,7 @@ const Misc = () => {
           </ul>
         </div>
 
-        <h1 className={styles["heading"]}>Founder of IoT Alliance</h1>
+        <h2 className={styles["heading"]}>Founder of IoT Alliance</h2>
         <div className="row">
           <div className={`col-lg-3 col-md-12 col-sm-12 text-center`}>
             <Image

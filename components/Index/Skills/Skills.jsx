@@ -5,9 +5,9 @@ const Skills = () => {
   return (
     <div className={`bg-theme text-theme ${styles["skills-container"]}`}>
       <div className="container-fluid">
-        <h1 className={styles["heading"]}>Expertise and Skills</h1>
+        <h2 className={styles["heading"]}>Expertise and Skills</h2>
 
-        <h1 className={styles["subheading"]}>Skills</h1>
+        <h3 className={styles["subheading"]}>Skills</h3>
         <div className="row">
           <SkillItem
             text="Internet of Things"
@@ -21,7 +21,7 @@ const Skills = () => {
           />
         </div>
 
-        <h1 className={styles["subheading"]}>Programming</h1>
+        <h2 className={styles["subheading"]}>Programming</h2>
         <div className="row">
           <SkillItem text="Java" imgUrl="/images/skills/java.png" space={4} />
           <SkillItem text="C++" imgUrl="/images/skills/cpp.jpg" space={4} />
@@ -29,7 +29,7 @@ const Skills = () => {
           <SkillItem text="C" imgUrl="/images/skills/c.png" space={4} />
         </div>
 
-        <h1 className={styles["subheading"]}>Additional Skills</h1>
+        <h2 className={styles["subheading"]}>Additional Skills</h2>
         <div className={styles["additional-skills"]}>
           <ul>
             <li>Good Organizing, Coordination and Leadership skills.</li>
