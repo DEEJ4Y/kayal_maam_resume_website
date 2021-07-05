@@ -5,6 +5,7 @@ import Education from "../components/Index/Education/Education";
 import Experience from "../components/Index/Experience/Experience";
 import Skills from "../components/Index/Skills/Skills";
 import Misc from "../components/Index/Misc/Misc";
+import Publications from "../components/Index/Publications/Publications";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Experience />
         <Skills />
         <Misc />
+        <Publications />
       </main>
     </div>
   );

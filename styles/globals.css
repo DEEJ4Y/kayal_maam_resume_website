@@ -54,3 +54,7 @@ a:hover {
 .text-accent {
   color: var(--accent-txt-color);
 }
+
+.sr-only {
+  visibility: hidden;
+}
