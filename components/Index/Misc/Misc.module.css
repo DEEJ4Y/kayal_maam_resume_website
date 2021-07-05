@@ -1,10 +1,5 @@
 .heading {
   font-weight: 800;
-  font-size: 2.5833rem;
-}
-
-.text-size {
-  font-size: 1.666rem;
 }
 
 .list-wrapper {
@@ -17,11 +12,17 @@
 }
 
 .iota-text {
-  margin-top: 1rem;
+  margin-top: 3.5rem;
 }
 
 @media (max-width: 768px) {
   .list-wrapper {
     padding-left: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .iota-text {
+    margin-top: 1rem;
   }
 }

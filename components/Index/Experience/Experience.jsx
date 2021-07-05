@@ -22,31 +22,35 @@ const Experience = () => {
             {experinceInYears}+ Years
           </strong>
         </p>
-
-        <WorkplaceHeading name="SRMIST" />
-        <ExperienceItem
-          role="Assistant Professor, Selection Grade"
-          duration="Since June 2 2017"
-          current
-        />
-        <ExperienceItem
-          role="Assistant Professor, Senior Grade"
-          duration="June 1 2012 - June 1 2017"
-        />
-        <ExperienceItem
-          role="Assistant Professor, Ordinary Grade"
-          duration="June 2 2003 - June 1 2012"
-        />
-
-        <WorkplaceHeading name="Other" />
-        <ExperienceItem
-          role="Lecturer, Mariana Engineering College"
-          duration="June 1 2002 - December 30 2002"
-        />
-        <ExperienceItem
-          role="Lecturer, Sastha Engineering College"
-          duration="June 1 2001 - May 30 2002"
-        />
+        <div className="row">
+          <div className="col-lg-6 col-md-12 col-sm-12">
+            <WorkplaceHeading name="SRMIST" />
+            <ExperienceItem
+              role="Assistant Professor, Selection Grade"
+              duration="Since June 2 2017"
+              current
+            />
+            <ExperienceItem
+              role="Assistant Professor, Senior Grade"
+              duration="June 1 2012 - June 1 2017"
+            />
+            <ExperienceItem
+              role="Assistant Professor, Ordinary Grade"
+              duration="June 2 2003 - June 1 2012"
+            />
+          </div>
+          <div className="col-lg-6 col-md-12 col-sm-12">
+            <WorkplaceHeading name="Other" />
+            <ExperienceItem
+              role="Lecturer, Mariana Engineering College"
+              duration="June 1 2002 - December 30 2002"
+            />
+            <ExperienceItem
+              role="Lecturer, Sastha Engineering College"
+              duration="June 1 2001 - May 30 2002"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
