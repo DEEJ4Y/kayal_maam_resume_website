@@ -9,6 +9,7 @@ const ActivitiesAndAchievements = () => {
         <h2 className={styles["heading"]}>
           Professional Activities and Achievements
         </h2>
+        <p>Have a look at my activities and achievements here.</p>
         <AchievementsCarousel />
       </div>
     </div>
