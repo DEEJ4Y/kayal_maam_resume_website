@@ -3,7 +3,7 @@ import styles from "./CarouselItem.module.css";
 
 const CarouselItem = ({ publication }) => {
   return (
-    <div className={styles["text"]}>
+    <div className={`${styles["text"]}`}>
       <div className={styles["carousel-placeholder"]}></div>
 
       <Carousel.Caption>
@@ -18,12 +18,12 @@ const CarouselItem = ({ publication }) => {
           ""
         )}
         {publication.journal ? (
-          <h4 className={styles["text"]}>{publication.journal}</h4>
+          <h6 className={styles["text"]}>{publication.journal}</h6>
         ) : (
           ""
         )}
         {publication.coPublisherAndUniversity ? (
-          <p>{publication.coPublisherAndUniversity}</p>
+          <h5>{publication.coPublisherAndUniversity}</h5>
         ) : (
           ""
         )}
