@@ -1,0 +1,18 @@
+.heading {
+  font-weight: 800;
+}
+
+.review-heading {
+  font-weight: 800;
+  margin-top: 3.5rem;
+}
+
+.wrapper {
+  padding-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-left: 1rem;
+  }
+}
