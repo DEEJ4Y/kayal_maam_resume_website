@@ -7,6 +7,7 @@ import Skills from "../components/Index/Skills/Skills";
 import Misc from "../components/Index/Misc/Misc";
 import Publications from "../components/Index/Publications/Publications";
 import PatentsAndReviews from "../components/Index/PatentsAndReviews/PatentsAndReviews";
+import ActivitiesAndAchievements from "../components/Index/ActivitiesAndAchievements/ActivitiesAndAchievements";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Misc />
         <Publications />
         <PatentsAndReviews />
+        <ActivitiesAndAchievements />
       </main>
     </div>
   );

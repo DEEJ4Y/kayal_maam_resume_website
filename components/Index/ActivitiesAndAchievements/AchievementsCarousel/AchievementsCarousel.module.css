@@ -1,0 +1,16 @@
+.carousel-placeholder {
+  height: 180px;
+  background-color: var(--theme-bg-color);
+}
+
+@media (max-width: 992px) {
+  .carousel-placeholder {
+    height: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-placeholder {
+    height: 240px;
+  }
+}
