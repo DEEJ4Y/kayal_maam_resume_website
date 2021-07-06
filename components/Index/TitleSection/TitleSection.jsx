@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./TitleSection.module.css";
-import Image from "next/image";
 
 const TitleSection = () => {
   return (
@@ -9,10 +9,7 @@ const TitleSection = () => {
           <div
             className={`col-lg-3 col-md-12 col-sm-12 ${styles["title-left"]}`}
           >
-            <Image
-              loader={() => {
-                return `/images/profile.jpg?q=${100}`;
-              }}
+            <img
               src="/images/profile.jpg"
               width={200}
               height={200}

@@ -1,6 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./SkillItem.module.css";
-
-import Image from "next/image";
 
 const SkillItem = ({ text, imgUrl, space }) => {
   let gridClasses;
@@ -15,7 +14,7 @@ const SkillItem = ({ text, imgUrl, space }) => {
   return (
     <div className={`${gridClasses} text-center`}>
       {imgUrl ? (
-        <Image
+        <img
           src={imgUrl}
           width={102}
           height={102}

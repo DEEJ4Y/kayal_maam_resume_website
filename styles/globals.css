@@ -58,3 +58,10 @@ a:hover {
 .sr-only {
   visibility: hidden;
 }
+
+/* No carousels before 576px */
+@media (max-width: 694px) {
+  .carousel {
+    display: none;
+  }
+}

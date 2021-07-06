@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./Misc.module.css";
-import Image from "next/image";
 
 const Misc = () => {
   return (
@@ -24,7 +24,7 @@ const Misc = () => {
         <h2 className={styles["heading"]}>Founder of IoT Alliance</h2>
         <div className="row">
           <div className={`col-lg-3 col-md-12 col-sm-12 text-center`}>
-            <Image
+            <img
               src="/images/iota.png"
               width={160}
               height={160}
