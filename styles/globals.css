@@ -29,7 +29,6 @@ h6 {
 }
 
 a {
-  color: var(--main-txt-color);
   text-decoration: none;
   cursor: pointer;
 }

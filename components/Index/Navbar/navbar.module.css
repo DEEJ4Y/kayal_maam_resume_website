@@ -1,5 +1,6 @@
 .brand-title {
   font-weight: 600;
+  color: var(--main-txt-color);
 }
 
 .navbar-shadow {
