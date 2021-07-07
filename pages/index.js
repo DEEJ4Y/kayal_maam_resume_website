@@ -9,6 +9,7 @@ import Publications from "../components/Index/Publications/Publications";
 import PatentsAndReviews from "../components/Index/PatentsAndReviews/PatentsAndReviews";
 import ActivitiesAndAchievements from "../components/Index/ActivitiesAndAchievements/ActivitiesAndAchievements";
 import Memberships from "../components/Index/Memberships/Memberships";
+import Contact from "../components/Index/Contact/Contact";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <ActivitiesAndAchievements />
         <Memberships />
       </main>
+      <Contact />
     </div>
   );
 }
