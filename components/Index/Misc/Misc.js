@@ -3,7 +3,10 @@ import styles from "./Misc.module.css";
 
 const Misc = () => {
   return (
-    <div className={`bg-accent text-accent container-padding`}>
+    <div
+      id="funded-projects"
+      className={`bg-accent text-accent container-padding`}
+    >
       <div className="container-fluid">
         <h2 className={styles["heading"]}>Funded Projects</h2>
         <div className={styles["list-wrapper"]}>

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./TitleSection.module.css";
+import Link from "next/link";
 
 const TitleSection = () => {
   return (
@@ -21,15 +22,19 @@ const TitleSection = () => {
           <div
             className={`col-lg-9 col-md-12 col-sm-12 ${styles["title-right"]}`}
           >
-            <h1 className={styles["title-name"]}>Kayalvizhi Jayavel Ph.D</h1>
+            <h1 className={styles["title-name"]}>
+              Dr. Kayalvizhi Jayavel Ph.D
+            </h1>
             <p className={styles["title-desc"]}>
               Assistant Professor (S.G), School of Computing, SRMIST
             </p>
-            <button
-              className={`btn bg-theme text-theme btn-lg ${styles["title-button"]}`}
-            >
-              Contact Me
-            </button>
+            <Link passHref href="/#contact">
+              <button
+                className={`btn bg-theme text-theme btn-lg ${styles["title-button"]}`}
+              >
+                Contact Me
+              </button>
+            </Link>
           </div>
         </div>
       </div>

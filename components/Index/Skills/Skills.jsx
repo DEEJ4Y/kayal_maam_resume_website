@@ -3,7 +3,10 @@ import SkillItem from "./SkillItem/SkillItem";
 
 const Skills = () => {
   return (
-    <div className={`bg-theme text-theme ${styles["skills-container"]}`}>
+    <div
+      id="skills"
+      className={`bg-theme text-theme ${styles["skills-container"]}`}
+    >
       <div className="container-fluid">
         <h2 className={styles["heading"]}>Expertise and Skills</h2>
 

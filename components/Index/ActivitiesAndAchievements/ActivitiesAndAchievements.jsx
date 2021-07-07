@@ -9,10 +9,10 @@ const ActivitiesAndAchievements = () => {
     <div className="container-padding bg-theme text-theme">
       <div className="container-fluid">
         <h2 className={styles["heading"]}>
-          Professional Activities and Achievements
+          Professional Achievements and Activities
         </h2>
         <p>
-          Have a look at my activities and achievements{" "}
+          Have a look at my achievements and activities{" "}
           <Link passHref href="/achievements">
             here.
           </Link>

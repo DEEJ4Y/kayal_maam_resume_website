@@ -8,3 +8,7 @@
   color: black;
   background-color: white;
 }
+
+.list-item:hover {
+  cursor: pointer;
+}

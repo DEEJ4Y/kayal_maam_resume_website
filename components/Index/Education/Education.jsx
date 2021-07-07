@@ -2,7 +2,10 @@ import styles from "./Education.module.css";
 import Course from "./Course/Course";
 const Education = () => {
   return (
-    <div className={`bg-theme text-theme ${styles["education-container"]}`}>
+    <div
+      id="education"
+      className={`bg-theme text-theme ${styles["education-container"]}`}
+    >
       <div className="container-fluid">
         <h2 className={styles["heading"]}>Education</h2>
         <div className="row">

@@ -5,7 +5,7 @@ import Patent from "./Patent/Patent";
 
 const PatentsAndReviews = () => {
   return (
-    <div className="container-padding bg-accent text-accent">
+    <div id="patents" className="container-padding bg-accent text-accent">
       <div className="container-fluid">
         <h2 className={`${styles["heading"]}`}>Patents</h2>
         <div>
@@ -14,7 +14,9 @@ const PatentsAndReviews = () => {
           })}
         </div>
 
-        <h2 className={`${styles["review-heading"]}`}>Reviews</h2>
+        <h2 id="reviews" className={`${styles["review-heading"]}`}>
+          Reviews
+        </h2>
         <div className={styles["wrapper"]}>
           <ul>
             <li>

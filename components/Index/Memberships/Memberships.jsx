@@ -2,7 +2,7 @@ import MembershipItem from "./MembershipItem/MembershipItem";
 import styles from "./Memberships.module.css";
 const Memberships = () => {
   return (
-    <div className="container-padding bg-accent text-accent">
+    <div id="memberships" className="container-padding bg-accent text-accent">
       <div className="container-fluid">
         <h2 className={styles["heading"]}>Memberships</h2>
         <ul>

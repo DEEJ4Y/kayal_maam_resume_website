@@ -13,7 +13,7 @@ const Experience = () => {
   }
 
   return (
-    <div className={`bg-accent text-accent container-padding`}>
+    <div id="experience" className={`bg-accent text-accent container-padding`}>
       <div className="container-fluid">
         <h2 className={styles["heading"]}>Experience</h2>
         <p className={styles["sub-heading"]}>
