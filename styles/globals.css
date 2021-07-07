@@ -30,11 +30,10 @@ h6 {
 
 a {
   text-decoration: none;
-  cursor: pointer;
 }
 
 a:hover {
-  color: var(--accent-txt-color);
+  cursor: pointer;
 }
 
 .container-fluid {
