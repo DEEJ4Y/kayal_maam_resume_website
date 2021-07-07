@@ -74,3 +74,17 @@ a:hover {
     display: none;
   }
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  /* display: none; */
+  bottom: 35%;
+}
+
+.carousel-caption {
+  top: 1.25rem;
+}
+
+.carousel-indicators {
+  display: none;
+}
