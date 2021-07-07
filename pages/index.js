@@ -10,6 +10,7 @@ import PatentsAndReviews from "../components/Index/PatentsAndReviews/PatentsAndR
 import ActivitiesAndAchievements from "../components/Index/ActivitiesAndAchievements/ActivitiesAndAchievements";
 import Memberships from "../components/Index/Memberships/Memberships";
 import Contact from "../components/Index/Contact/Contact";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -26,8 +27,9 @@ export default function Home() {
         <PatentsAndReviews />
         <ActivitiesAndAchievements />
         <Memberships />
+        <Contact />
       </main>
-      <Contact />
+      <Footer />
     </div>
   );
 }
