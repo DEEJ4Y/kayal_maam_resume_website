@@ -7,10 +7,7 @@ const ExperienceItem = ({ role, duration, current }) => {
       <p className={styles["experience-duration"]}>
         {current ? (
           <span>
-            <strong className={styles["experience-duration-current"]}>
-              Current
-            </strong>
-            ,{" "}
+            <strong>Current</strong>,{" "}
           </span>
         ) : (
           ""

@@ -8,7 +8,7 @@ import Link from "next/link";
 const Navbar = () => {
   const [togglerStateOpen, setTogglerStateOpen] = useState(false);
   return (
-    <nav className={`navbar bg-theme text-theme ${styles["navbar-shadow"]}`}>
+    <nav className={`navbar bg-theme text-theme ${styles["nav-bg"]}`}>
       <div className="container-fluid">
         <Link passHref href="/">
           <span className={`navbar-brand ${styles["brand-title"]}`}>

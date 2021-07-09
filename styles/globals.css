@@ -14,7 +14,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  font-weight: 600;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 * {
@@ -22,7 +32,8 @@ h6 {
 }
 
 :root {
-  --main-bg-color: black;
+  /* teal: #2CD3C6 */
+  --main-bg-color: #2fdcf2;
   --main-txt-color: white;
   --accent-bg-color: white;
   --accent-txt-color: black;
@@ -77,10 +88,13 @@ a:hover {
 .carousel-control-next {
   /* display: none; */
   bottom: 35%;
+  color: var(--main-txt-color);
 }
 
 .carousel-caption {
   top: 1.25rem;
+  color: var(--main-txt-color);
+  background-color: var(--main-bg-color);
 }
 
 .carousel-indicators {

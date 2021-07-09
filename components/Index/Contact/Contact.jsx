@@ -7,7 +7,7 @@ const Contact = () => {
       className="container-padding text-center text-theme bg-theme"
     >
       <div className="container-fluid">
-        <h2 style={{ fontWeight: "800", marginBottom: "2rem" }}>Contact Me</h2>
+        <h2 style={{ marginBottom: "2rem" }}>Contact Me</h2>
         <p>jayavelkayal@gmail.com</p>
         <p>kayalvij@srmist.edu.in</p>
         <p>

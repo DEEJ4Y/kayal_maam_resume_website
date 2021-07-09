@@ -6,8 +6,8 @@ const Course = ({ name, subject, yearAndCollege, description }) => {
       className={`col-lg-4 col-md-4 col-sm-12 ${styles["course-container"]}`}
     >
       <h3 className={styles["course-name"]}>{name}</h3>
-      <h4 className={styles["subject-name"]}>{subject}</h4>
-      <p className={styles["year-and-college"]}>{yearAndCollege}</p>
+      <h4 className={styles["subject"]}>{subject}</h4>
+      <p>{yearAndCollege}</p>
       {description ? (
         <p className={styles["year-and-college"]}>
           <em>{description}</em>

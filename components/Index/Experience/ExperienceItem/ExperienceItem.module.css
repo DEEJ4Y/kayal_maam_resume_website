@@ -4,18 +4,12 @@
 }
 
 .experience-role {
-  font-weight: 700;
   margin-bottom: 0;
 }
 
 .experience-duration {
-  font-weight: 300;
   font-style: italic;
   padding-top: 0;
-}
-
-.experience-duration-current {
-  font-weight: 700;
 }
 
 @media (max-width: 768px) {

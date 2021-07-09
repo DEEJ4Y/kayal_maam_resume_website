@@ -1,10 +1,8 @@
 .heading {
-  font-weight: 800;
   margin-bottom: 2rem;
 }
 
 .subheading {
-  font-weight: 800;
   margin: 2.5rem 0;
   padding-left: 2rem;
 }
@@ -15,7 +13,6 @@
 
 .additional-skills {
   padding-left: 3rem;
-  font-weight: 300;
 }
 
 @media (max-width: 768px) {

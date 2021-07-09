@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div
       id="education"
-      className={`bg-theme text-theme ${styles["education-container"]}`}
+      className={`bg-accent text-accent ${styles["education-container"]} text-center`}
     >
       <div className="container-fluid">
         <h2 className={styles["heading"]}>Education</h2>

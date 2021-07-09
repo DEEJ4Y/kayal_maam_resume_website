@@ -1,8 +1,8 @@
 .heading {
-  font-weight: 800;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .education-container {
-  padding: 4rem 0;
+  padding: 0 0 4rem;
+  margin: -6rem 0 -4rem;
 }

@@ -3,16 +3,12 @@
 }
 
 .course-name {
-  font-weight: 800;
   margin-bottom: 0;
-}
-
-.subject-name {
-  font-weight: 700;
-}
-
-.year-and-college {
   font-weight: 300;
+}
+
+.subject {
+  font-size: 1.25rem;
 }
 
 @media (max-width: 768px) {
