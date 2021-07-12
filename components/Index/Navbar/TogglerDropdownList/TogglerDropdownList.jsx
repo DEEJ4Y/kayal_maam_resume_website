@@ -7,6 +7,7 @@ const TogglerDropdownList = (props) => {
     <div
       className={styles["toggler-dropdown-list"]}
       style={props.style ? props.style : ""}
+      onMouseLeave={props.onMouseLeave ? props.onMouseLeave : () => {}}
     >
       <ul className="navbar-nav">
         <ListItem href="/publications" name="Publications" />

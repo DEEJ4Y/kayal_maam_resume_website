@@ -8,23 +8,33 @@ const Skills = () => {
       className={`bg-theme text-theme ${styles["skills-container"]}`}
     >
       <div className="container-fluid">
-        <h2 className={styles["heading"]}>Expertise and Skills</h2>
+        <div className="text-center">
+          <h2 className={styles["heading"]}>Expertise and Skills</h2>
 
-        <h3 className={styles["subheading"]}>Skills</h3>
+          <h3 className={styles["subheading"]}>Skills</h3>
+        </div>
+
         <div className="row">
           <SkillItem
             text="Internet of Things"
             imgUrl="/images/expertise/iot.jpg"
-            space={2}
+            space={3}
           />
           <SkillItem
             text="Machine Learning"
             imgUrl="/images/expertise/ml.jpg"
-            space={2}
+            space={3}
+          />
+          <SkillItem
+            text="Artificial Intelligence"
+            imgUrl="/images/expertise/ai.jpg"
+            space={3}
           />
         </div>
 
-        <h2 className={styles["subheading"]}>Programming</h2>
+        <div className="text-center">
+          <h2 className={styles["subheading"]}>Programming</h2>
+        </div>
         <div className="row">
           <SkillItem text="Java" imgUrl="/images/skills/java.png" space={4} />
           <SkillItem text="C++" imgUrl="/images/skills/cpp.jpg" space={4} />

@@ -4,6 +4,7 @@ const Toggler = (props) => {
   return (
     <div
       style={props.style ? props.style : {}}
+      onMouseEnter={props.onMouseEnter ? props.onMouseEnter : () => {}}
       onClick={props.onClick ? props.onClick : () => {}}
       className={styles["toggler"]}
     >
@@ -11,7 +12,7 @@ const Toggler = (props) => {
         xmlns="http://www.w3.org/2000/svg"
         width={props.size ? props.size : "24"}
         height={props.size ? props.size : "24"}
-        fill="#000000"
+        fill="#000"
         className="bi bi-list"
         viewBox="0 0 16 16"
       >

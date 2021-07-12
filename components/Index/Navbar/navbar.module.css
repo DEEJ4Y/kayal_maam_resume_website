@@ -1,6 +1,6 @@
 .nav-bg {
-  background-color: white;
-  color: black;
+  background-color: var(--accent-bg-color);
+  color: var(--accent-txt-color);
 }
 
 .brand-title {
@@ -9,4 +9,20 @@
 
 .brand-title:hover {
   cursor: pointer;
+}
+
+.publications-link {
+  position: absolute;
+  right: calc((calc((100vw - 1024px) / 2)) + 64px);
+  margin-right: 0.25rem;
+}
+
+.publications-link:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .publications-link {
+    right: 4rem;
+  }
 }

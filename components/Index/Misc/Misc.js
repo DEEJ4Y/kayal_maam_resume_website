@@ -12,6 +12,10 @@ const Misc = () => {
         <div className={styles["list-wrapper"]}>
           <ul>
             <li>
+              Grant-In-Aid received worth one lakh under AICTE-SPICES scheme for
+              IoT Alliance club development (Granted 05.03.2021)
+            </li>
+            <li>
               Co-PI with job role as an International Expert Advisor for project
               &quot;Special and Urgent Collaborative Research Grants to Address
               COVID-19 Pandemic&quot;, published by NCST, Rwanda. Grant amount

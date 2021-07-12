@@ -31,6 +31,14 @@ h2 {
   box-sizing: border-box;
 }
 
+.clickable:hover {
+  cursor: pointer;
+}
+
+#tooltip-right {
+  margin-left: 0.25rem;
+}
+
 :root {
   /* teal: #2CD3C6 */
   --main-bg-color: #000000bb;

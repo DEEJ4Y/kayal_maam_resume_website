@@ -13,7 +13,7 @@ const Education = () => {
             name="Ph.D"
             subject="Computer Science"
             yearAndCollege="2019, SRMIST"
-            description="Design and Implementation of Internet of Things Testbed Framework - A Performance Enhanced Approach."
+            description=""
           />
           <Course
             name="M.E"
@@ -26,6 +26,10 @@ const Education = () => {
             yearAndCollege="2001, Sai Ram Engineering College - Madras University"
           />
         </div>
+        <p>
+          Ph.D Thesis: Design and Implementation of Internet of Things Testbed
+          Framework - A Performance Enhanced Approach.
+        </p>
       </div>
     </div>
   );

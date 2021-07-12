@@ -1,5 +1,6 @@
 .skill-image {
   border-radius: 50%;
+  border: 0.125rem solid white;
 }
 
 .skill-text {

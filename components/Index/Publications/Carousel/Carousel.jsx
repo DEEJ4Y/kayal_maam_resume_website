@@ -5,7 +5,7 @@ import publications from "../../../../lib/index/publications";
 
 const PublicationsCarousel = () => {
   return (
-    <Carousel interval={7000}>
+    <Carousel interval={5000}>
       {publications.map((publication, idx) => {
         // console.log(publication, idx);
         return (

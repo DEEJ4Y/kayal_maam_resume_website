@@ -11,6 +11,10 @@
   font-size: 1.25rem;
 }
 
+.top-wrapper {
+  height: 5.5rem;
+}
+
 @media (max-width: 768px) {
   .course-name {
     margin-top: 2rem;

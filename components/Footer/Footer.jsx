@@ -6,7 +6,7 @@ import FooterIcon from "./FooterIcon/FooterIcon";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <div className="container-padding text-center bg-accent text-accent">
+    <div className="container-padding text-dark bg-light text-center">
       <div className="container-fluid">
         <FooterIcon
           url="http://www.linkedin.com/in/dr-kayalvizhi-jayavel-2505783b"

@@ -14,7 +14,21 @@ const Publications = () => {
           <Link passHref href="/publications">
             here
           </Link>
-          . For more details visit my Google Scholar page and my Scopus page.
+          . For more details visit my{" "}
+          <Link
+            passHref
+            href="https://scholar.google.com/citations?user=GeOfGFoAAAAJ&hl=en"
+          >
+            Google Scholar
+          </Link>{" "}
+          page and my{" "}
+          <Link
+            passHref
+            href="https://www.scopus.com/authid/detail.uri?authorId=57188638422"
+          >
+            Scopus
+          </Link>{" "}
+          page.
         </p>
         <PublicationsCarousel />
       </div>
