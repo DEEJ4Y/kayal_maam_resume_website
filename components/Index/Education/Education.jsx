@@ -13,7 +13,6 @@ const Education = () => {
             name="Ph.D"
             subject="Computer Science"
             yearAndCollege="2019, SRMIST"
-            description=""
           />
           <Course
             name="M.E"
