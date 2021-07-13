@@ -7,6 +7,7 @@ const Toggler = (props) => {
       onMouseEnter={props.onMouseEnter ? props.onMouseEnter : () => {}}
       onClick={props.onClick ? props.onClick : () => {}}
       className={styles["toggler"]}
+      data-aos={props.dataAos}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

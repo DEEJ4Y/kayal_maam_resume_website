@@ -7,11 +7,15 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [togglerStateOpen, setTogglerStateOpen] = useState(false);
+
   return (
     <nav className={`navbar fixed-top bg-theme text-theme ${styles["nav-bg"]}`}>
       <div className="container-fluid">
         <Link passHref href="/">
-          <span className={`navbar-brand ${styles["brand-title"]}`}>
+          <span
+            className={`navbar-brand ${styles["brand-title"]}`}
+            data-aos="fade-right"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -32,7 +36,9 @@ const Navbar = () => {
           </span>
         </Link>
         <Link passHref href="/publications">
-          <span className={styles["publications-link"]}>Publications</span>
+          <span className={styles["publications-link"]} data-aos="fade-left">
+            Publications
+          </span>
         </Link>
         <Toggler
           onMouseEnter={() => {
@@ -43,6 +49,7 @@ const Navbar = () => {
               ? setTogglerStateOpen(false)
               : setTogglerStateOpen(true);
           }}
+          dataAos="fade-left"
         />
         <TogglerDropdownList
           style={{ visibility: togglerStateOpen ? "visible" : "hidden" }}

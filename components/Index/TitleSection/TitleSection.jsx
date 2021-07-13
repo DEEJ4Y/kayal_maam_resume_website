@@ -18,6 +18,7 @@ const TitleSection = () => {
         <div className="row">
           <div
             className={`col-lg-3 col-md-12 col-sm-12 ${styles["title-left"]}`}
+            data-aos="fade-right"
           >
             {/* <img
                 className={styles["flower-img"]}
@@ -35,6 +36,7 @@ const TitleSection = () => {
 
           <div
             className={`col-lg-9 col-md-12 col-sm-12 ${styles["title-right"]}`}
+            data-aos="fade-left"
           >
             <h1 className={styles["title-name"]}>
               Dr. Kayalvizhi Jayavel Ph.D
