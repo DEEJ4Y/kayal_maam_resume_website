@@ -14,9 +14,15 @@ const HeadTags = () => {
         property="og:description"
         content="Hi, I'm Kayalvizhi Jayavel, and this is my personal website!"
       />
-      <meta property="og:image" content="LINK TO THE IMAGE FILE" />
-      <meta property="og:url" content="PERMALINK" />
-      <meta property="og:site_name" content="SITE NAME" />
+      <meta property="og:image" content="/images/profile.jpg" />
+      <meta
+        property="og:url"
+        content="https://kayalvizhi-jayavel.herokuapp.com"
+      />
+      <meta
+        property="og:site_name"
+        content="kayalvizhi-jayavel.herokuapp.com"
+      />
 
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
