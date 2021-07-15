@@ -1,5 +1,6 @@
 import "../styles/bootstrap.min.css";
 import "aos/dist/aos.css";
+import "animate.css";
 import "../styles/globals.css";
 
 import { useEffect } from "react";

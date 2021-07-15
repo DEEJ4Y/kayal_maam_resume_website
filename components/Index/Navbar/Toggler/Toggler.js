@@ -13,7 +13,7 @@ const Toggler = (props) => {
         xmlns="http://www.w3.org/2000/svg"
         width={props.size ? props.size : "24"}
         height={props.size ? props.size : "24"}
-        fill="#000"
+        fill="#fff"
         className="bi bi-list"
         viewBox="0 0 16 16"
       >

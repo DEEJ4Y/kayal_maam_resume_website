@@ -3,24 +3,36 @@ import styles from "./Experience.module.css";
 import WorkplaceHeading from "./WorkplaceHeading/WorkplaceHeading";
 import ExperienceItem from "./ExperienceItem/ExperienceItem";
 
+import CountUp from "react-countup";
+
+import { useRef } from "react";
+import useOnScreen from "../../../utils/useOnScreen";
+
 const Experience = () => {
   const date = new Date();
   const month = date.getMonth();
   const year = date.getFullYear();
-  let experinceInYears = year - 2002;
+  let experienceInYears = year - 2002;
   if (month < 6) {
-    experinceInYears -= 1;
+    experienceInYears -= 1;
   }
+
+  const experienceRef = useRef();
+  const experienceOnScreen = useOnScreen(experienceRef, "0px");
 
   return (
     <div id="experience" className={`bg-accent text-accent container-padding`}>
       <div className="container-fluid">
         <div className="text-center">
           <h2 className={styles["heading"]}>Experience</h2>
-          <p className={styles["sub-heading"]}>
+          <p className={styles["sub-heading"]} ref={experienceRef}>
             Total Experience:{" "}
             <strong className={styles["sub-heading-bold"]}>
-              {experinceInYears}+ Years
+              <CountUp
+                end={experienceOnScreen ? experienceInYears : 0}
+                duration={3}
+              />
+              + Years
             </strong>
           </p>
         </div>

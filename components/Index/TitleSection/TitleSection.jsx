@@ -46,7 +46,7 @@ const TitleSection = () => {
             </p>
             <Link passHref href="/#contact">
               <button
-                className={`btn bg-theme text-theme btn-lg ${styles["title-button"]}`}
+                className={`btn bg-accent text-accent btn-lg ${styles["title-button"]}`}
               >
                 Contact Me
               </button>

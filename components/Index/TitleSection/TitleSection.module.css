@@ -40,8 +40,6 @@
 }
 
 .title-button {
-  color: var(--main-bg-color);
-  background-color: var(--main-txt-color);
   margin-top: 1rem;
   padding: 0.425rem 3rem;
 }

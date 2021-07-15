@@ -20,7 +20,7 @@ const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
-              fill={"#000"}
+              fill={"#fff"}
               className="bi bi-house-fill"
               viewBox="0 0 16 16"
             >

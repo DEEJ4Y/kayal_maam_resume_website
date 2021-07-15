@@ -1,7 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./SkillItem.module.css";
 
+import { useRef } from "react";
+import useOnScreen from "../../../../utils/useOnScreen";
+
 const SkillItem = ({ text, imgUrl, space }) => {
+  const ref = useRef();
+
+  const onScreen = useOnScreen(ref, "0px");
+
   let gridClasses;
   if (space === 2) {
     gridClasses = "col-lg-6 col-md-6 col-sm-12";
@@ -12,7 +19,14 @@ const SkillItem = ({ text, imgUrl, space }) => {
   }
 
   return (
-    <div className={`${gridClasses} text-center`}>
+    <div
+      className={
+        onScreen
+          ? `${gridClasses} text-center animate__animated animate__fadeInDown`
+          : `${gridClasses} text-center animate__animated`
+      }
+      ref={ref}
+    >
       {imgUrl ? (
         <img
           src={imgUrl}

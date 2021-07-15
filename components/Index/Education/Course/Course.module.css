@@ -19,4 +19,7 @@
   .course-name {
     margin-top: 2rem;
   }
+  .top-wrapper {
+    height: fit-content;
+  }
 }

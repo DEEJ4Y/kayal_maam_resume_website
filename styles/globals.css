@@ -44,8 +44,8 @@ h2 {
   /* teal: #2CD3C6 */
   --main-bg-color: #000000bb;
   --main-txt-color: white;
-  --accent-bg-color: white;
-  --accent-txt-color: black;
+  --accent-bg-color: #007389;
+  --accent-txt-color: white;
 }
 
 a {

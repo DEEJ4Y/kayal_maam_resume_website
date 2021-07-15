@@ -1,13 +1,29 @@
 import styles from "./Education.module.css";
 import Course from "./Course/Course";
+
+import { useRef } from "react";
+import useOnScreen from "../../../utils/useOnScreen";
+
 const Education = () => {
+  const ref = useRef();
+
+  const onScreen = useOnScreen(ref, "0px");
   return (
     <div
       id="education"
       className={`bg-theme text-theme ${styles["education-container"]} text-center`}
     >
       <div className="container-fluid">
-        <h2 className={styles["heading"]}>Education</h2>
+        <h2
+          className={
+            onScreen
+              ? `${styles["heading"]} animate__animated animate__fadeInUp`
+              : `${styles["heading"]} animate__animated animate__fadeInDown`
+          }
+          ref={ref}
+        >
+          Education
+        </h2>
         <div className="row">
           <Course
             name="Ph.D"
