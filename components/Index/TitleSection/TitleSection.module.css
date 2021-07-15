@@ -24,7 +24,7 @@
   z-index: -1;
   overflow-y: hidden;
   overflow-x: hidden;
-  margin-top: 56px;
+  margin-bottom: -56px;
 }
 
 .title-name {

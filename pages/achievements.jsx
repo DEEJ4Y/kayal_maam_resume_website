@@ -8,7 +8,7 @@ const PublicationsPage = () => {
     <div>
       <HeadTags />
       <Navbar />
-      <main className="container-padding bg-accent text-accent">
+      <main className="container-padding bg-light text-dark mt-4">
         <div className="container-fluid">
           <h2 style={{ fontWeight: 800, marginBottom: "2rem" }}>
             Professional Activities and Achievements

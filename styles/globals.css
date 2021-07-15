@@ -6,6 +6,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1,

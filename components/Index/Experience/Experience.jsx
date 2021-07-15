@@ -25,7 +25,7 @@ const Experience = () => {
           </p>
         </div>
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <WorkplaceHeading name="SRMIST" />
             <ExperienceItem
               role="Assistant Professor, Selection Grade"
@@ -38,7 +38,7 @@ const Experience = () => {
             />
             <ExperienceItem
               role="Assistant Professor, Ordinary Grade"
-              duration="June 2 2003 - June 1 2012"
+              duration="January 2 2003 - June 1 2012"
             />
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12">
