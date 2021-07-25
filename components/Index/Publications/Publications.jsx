@@ -30,6 +30,23 @@ const Publications = () => {
           </Link>{" "}
           page.
         </p>
+        <ul className="ml-4 text-primary clickable">
+          <Link passHref href="/publications">
+            <li>My Publications</li>
+          </Link>
+          <Link
+            passHref
+            href="https://scholar.google.com/citations?user=GeOfGFoAAAAJ&hl=en"
+          >
+            <li>Google Scholar</li>
+          </Link>
+          <Link
+            passHref
+            href="https://www.scopus.com/authid/detail.uri?authorId=57188638422"
+          >
+            <li>Scopus</li>
+          </Link>
+        </ul>
         <PublicationsCarousel />
       </div>
     </div>
