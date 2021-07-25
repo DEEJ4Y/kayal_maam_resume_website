@@ -17,12 +17,9 @@ const HeadTags = () => {
       <meta property="og:image" content="/images/profile.jpg" />
       <meta
         property="og:url"
-        content="https://kayalvizhi-jayavel.herokuapp.com"
+        content="https://kayalvizhi-jayavel.vercel.app/"
       />
-      <meta
-        property="og:site_name"
-        content="kayalvizhi-jayavel.herokuapp.com"
-      />
+      <meta property="og:site_name" content="kayalvizhi-jayavel.vercel.app" />
 
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
