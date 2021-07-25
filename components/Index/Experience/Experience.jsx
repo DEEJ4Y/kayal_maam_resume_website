@@ -12,7 +12,7 @@ const Experience = () => {
   const date = new Date();
   const month = date.getMonth();
   const year = date.getFullYear();
-  let experienceInYears = year - 2002;
+  let experienceInYears = year - 2001;
   if (month < 6) {
     experienceInYears -= 1;
   }

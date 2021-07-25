@@ -5,11 +5,14 @@ import PublicationsCarousel from "./Carousel/Carousel";
 import Link from "next/link";
 
 const Publications = () => {
+  const handleURLClick = (e) => {
+    e.target.innerHTML += " (Loading... Please wait.)";
+  };
   return (
     <div className="bg-theme text-theme container-padding">
       <div className="container-fluid">
         <h2 className={styles["heading"]}>Publications</h2>
-        <p className={styles["text-size"]}>
+        {/* <p className={styles["text-size"]}>
           Only a few of my publications are listed{" "}
           <Link passHref href="/publications">
             here
@@ -29,7 +32,7 @@ const Publications = () => {
             Scopus
           </Link>{" "}
           page.
-        </p>
+        </p> */}
         <ul className="ml-4 text-primary clickable">
           <Link passHref href="/publications">
             <li>My Publications</li>
@@ -38,13 +41,17 @@ const Publications = () => {
             passHref
             href="https://scholar.google.com/citations?user=GeOfGFoAAAAJ&hl=en"
           >
-            <li>Google Scholar</li>
+            <li id="publications-scholar-link" onClick={handleURLClick}>
+              Google Scholar
+            </li>
           </Link>
           <Link
             passHref
             href="https://www.scopus.com/authid/detail.uri?authorId=57188638422"
           >
-            <li>Scopus</li>
+            <li id="publications-scholar-link" onClick={handleURLClick}>
+              Scopus
+            </li>
           </Link>
         </ul>
         <PublicationsCarousel />

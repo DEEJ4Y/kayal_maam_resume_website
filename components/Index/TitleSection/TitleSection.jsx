@@ -1,14 +1,26 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./TitleSection.module.css";
 import Link from "next/link";
+import useWindowSize from "../../../utils/useWindowSize";
 
 const TitleSection = () => {
+  const [width, height] = useWindowSize();
   return (
     <div id="title-section" className={`text-theme bg-theme`}>
       <img
-        src="/images/misc/flowers-bg.jpg"
+        src={
+          width > 1024
+            ? "/images/misc/flowers-bg-xl.jpg"
+            : width > 768
+            ? "/images/misc/flowers-bg.jpg"
+            : width > 552
+            ? "/images/misc/flowers-bg-md.jpg"
+            : "/images/misc/flowers-bg-sm.jpg"
+        }
         alt="page-background-img"
         className={styles["page-bg"]}
+        height={height}
+        width={width}
       />
       {/* <div
         className={styles["title-background"]}
