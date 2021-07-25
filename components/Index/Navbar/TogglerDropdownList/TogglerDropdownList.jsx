@@ -7,6 +7,7 @@ const TogglerDropdownList = (props) => {
     <div
       className={styles["toggler-dropdown-list"]}
       style={props.style ? props.style : ""}
+      onMouseEnter={props.onMouseEnter ? props.onMouseEnter : () => {}}
       onMouseLeave={props.onMouseLeave ? props.onMouseLeave : () => {}}
     >
       <ul className="navbar-nav">

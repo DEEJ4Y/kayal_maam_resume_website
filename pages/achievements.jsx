@@ -17,7 +17,7 @@ const PublicationsPage = () => {
             {activiesAndAchievements.map(({ text }, idx) => {
               return (
                 <li key={idx}>
-                  <h5>{text}</h5>
+                  <p>{text}</p>
                 </li>
               );
             })}

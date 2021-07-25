@@ -36,9 +36,12 @@ const Navbar = () => {
           </span>
         </Link>
         <Link passHref href="/publications">
-          <span className={styles["publications-link"]} data-aos="fade-left">
+          <button
+            className={`btn btn-light ${styles["publications-link"]}`}
+            data-aos="fade-left"
+          >
             Publications
-          </span>
+          </button>
         </Link>
         <Toggler
           onMouseEnter={() => {
@@ -53,6 +56,9 @@ const Navbar = () => {
         />
         <TogglerDropdownList
           style={{ visibility: togglerStateOpen ? "visible" : "hidden" }}
+          onMouseEnter={() => {
+            setTogglerStateOpen(true);
+          }}
           onMouseLeave={() => {
             setTogglerStateOpen(false);
           }}

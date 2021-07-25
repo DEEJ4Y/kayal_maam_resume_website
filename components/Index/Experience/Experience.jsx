@@ -25,7 +25,7 @@ const Experience = () => {
       <div className="container-fluid">
         <div className="text-center">
           <h2 className={styles["heading"]}>Experience</h2>
-          <p className={styles["sub-heading"]} ref={experienceRef}>
+          <h3 className={styles["sub-heading"]} ref={experienceRef}>
             Total Experience:{" "}
             <strong className={styles["sub-heading-bold"]}>
               <CountUp
@@ -34,36 +34,28 @@ const Experience = () => {
               />
               + Years
             </strong>
-          </p>
+          </h3>
         </div>
-        <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12">
-            <WorkplaceHeading name="SRMIST" />
-            <ExperienceItem
-              role="Assistant Professor, Selection Grade"
-              duration="Since June 2 2017"
-              current
-            />
-            <ExperienceItem
-              role="Assistant Professor, Senior Grade"
-              duration="June 1 2012 - June 1 2017"
-            />
-            <ExperienceItem
-              role="Assistant Professor, Ordinary Grade"
-              duration="January 2 2003 - June 1 2012"
-            />
-          </div>
-          <div className="col-lg-6 col-md-12 col-sm-12">
-            <WorkplaceHeading name="Other" />
-            <ExperienceItem
-              role="Lecturer, Mariana Engineering College"
-              duration="June 1 2002 - December 30 2002"
-            />
-            <ExperienceItem
-              role="Lecturer, Sastha Engineering College"
-              duration="June 1 2001 - May 30 2002"
-            />
-          </div>
+        <div className="text-center">
+          {/* <div className="col-lg-6 col-md-12 col-sm-12"> */}
+          {/* <WorkplaceHeading name="SRMIST" /> */}
+          <ExperienceItem
+            role="Assistant Professor, SRMIST"
+            duration="Since January 2 2003"
+            current
+          />
+          {/* </div>
+          <div className="col-lg-6 col-md-12 col-sm-12"> */}
+          {/* <WorkplaceHeading name="Other" /> */}
+          <ExperienceItem
+            role="Lecturer, Mariana Engineering College"
+            duration="June 1 2002 - December 30 2002"
+          />
+          <ExperienceItem
+            role="Lecturer, Sastha Engineering College"
+            duration="June 1 2001 - May 30 2002"
+          />
+          {/* </div> */}
         </div>
       </div>
     </div>

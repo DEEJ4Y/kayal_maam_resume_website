@@ -5,6 +5,7 @@ const Toggler = (props) => {
     <div
       style={props.style ? props.style : {}}
       onMouseEnter={props.onMouseEnter ? props.onMouseEnter : () => {}}
+      onMouseLeave={props.onMouseLeave ? props.onMouseLeave : () => {}}
       onClick={props.onClick ? props.onClick : () => {}}
       className={styles["toggler"]}
       data-aos={props.dataAos}
