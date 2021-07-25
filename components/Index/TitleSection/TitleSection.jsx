@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const TitleSection = () => {
   return (
-    <div className={`text-theme bg-theme`}>
+    <div id="title-section" className={`text-theme bg-theme`}>
       <img
         src="/images/misc/flowers-bg.jpg"
         alt="page-background-img"

@@ -9,9 +9,12 @@ const Navbar = () => {
   const [togglerStateOpen, setTogglerStateOpen] = useState(false);
 
   return (
-    <nav className={`navbar fixed-top bg-theme text-theme ${styles["nav-bg"]}`}>
+    <nav
+      id="navbar"
+      className={`navbar fixed-top bg-theme text-theme ${styles["nav-bg"]}`}
+    >
       <div className="container-fluid">
-        <Link passHref href="/">
+        <Link passHref href="/#title-section">
           <span
             className={`navbar-brand ${styles["brand-title"]}`}
             data-aos="fade-right"
