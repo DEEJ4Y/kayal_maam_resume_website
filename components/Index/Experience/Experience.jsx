@@ -24,7 +24,7 @@ const Experience = () => {
     <div id="experience" className={`bg-accent text-accent container-padding`}>
       <div className="container-fluid">
         <div className="text-center">
-          <h2 className={styles["heading"]}>Experience</h2>
+          {/* <h2 className={styles["heading"]}>Experience</h2> */}
           <h3 className={styles["sub-heading"]} ref={experienceRef}>
             Total Experience:{" "}
             <strong className={styles["sub-heading-bold"]}>
@@ -36,17 +36,17 @@ const Experience = () => {
             </strong>
           </h3>
         </div>
-        <div className="text-center">
-          {/* <div className="col-lg-6 col-md-12 col-sm-12"> */}
-          {/* <WorkplaceHeading name="SRMIST" /> */}
+        {/* <div className="text-center">
+          <div className="col-lg-6 col-md-12 col-sm-12"> 
+           <WorkplaceHeading name="SRMIST" />
           <ExperienceItem
             role="Assistant Professor, SRMIST"
             duration="Since January 2 2003"
             current
           />
-          {/* </div>
-          <div className="col-lg-6 col-md-12 col-sm-12"> */}
-          {/* <WorkplaceHeading name="Other" /> */}
+          </div>
+          <div className="col-lg-6 col-md-12 col-sm-12">
+          <WorkplaceHeading name="Other" />
           <ExperienceItem
             role="Lecturer, Mariana Engineering College"
             duration="June 1 2002 - December 30 2002"
@@ -55,8 +55,8 @@ const Experience = () => {
             role="Lecturer, Sastha Engineering College"
             duration="June 1 2001 - May 30 2002"
           />
-          {/* </div> */}
-        </div>
+          </div>
+        </div> */}
       </div>
     </div>
   );

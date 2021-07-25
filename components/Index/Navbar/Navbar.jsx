@@ -35,14 +35,14 @@ const Navbar = () => {
             </svg>
           </span>
         </Link>
-        <Link passHref href="/publications">
+        {/* <Link passHref href="/publications">
           <button
             className={`btn btn-light ${styles["publications-link"]}`}
             data-aos="fade-left"
           >
             Publications
           </button>
-        </Link>
+        </Link> */}
         <Toggler
           onMouseEnter={() => {
             setTogglerStateOpen(true);

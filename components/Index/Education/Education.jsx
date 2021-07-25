@@ -41,10 +41,10 @@ const Education = () => {
             yearAndCollege="2001, Sai Ram Engineering College - Madras University"
           />
         </div>
-        <p>
+        {/* <p>
           Ph.D Thesis: Design and Implementation of Internet of Things Testbed
           Framework - A Performance Enhanced Approach.
-        </p>
+        </p> */}
       </div>
     </div>
   );
