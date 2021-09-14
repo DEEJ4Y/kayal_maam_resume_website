@@ -54,7 +54,7 @@ const TitleSection = () => {
               Dr. Kayalvizhi Jayavel Ph.D
             </h1>
             <p className={styles["title-desc"]}>
-              Assistant Professor (S.G), School of Computing, SRMIST
+              Associate Professor, School of Computing, SRMIST
             </p>
             <Link passHref href="/#contact">
               <button

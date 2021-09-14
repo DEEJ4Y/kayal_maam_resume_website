@@ -1,12 +1,26 @@
 import styles from "./Publications.module.css";
 
 import PublicationsCarousel from "./Carousel/Carousel";
+import Loader from "react-loader-spinner";
 
 import Link from "next/link";
+import { useState } from "react";
 
 const Publications = () => {
+  const [loadingState, setLoadingState] = useState({
+    scholar: false,
+    scopus: false,
+  });
   const handleURLClick = (e) => {
-    e.target.innerHTML += " (Loading... Please wait.)";
+    const { name } = e.target;
+    if (name === "scholar-link") {
+      setLoadingState((prev) => {
+        return {
+          scholar: true,
+          scopus: false,
+        };
+      });
+    }
   };
   return (
     <div className="bg-theme text-theme container-padding">
@@ -41,15 +55,34 @@ const Publications = () => {
             passHref
             href="https://scholar.google.com/citations?user=GeOfGFoAAAAJ&hl=en"
           >
-            <li id="publications-scholar-link" onClick={handleURLClick}>
+            <li
+              id="publications-scholar-link"
+              name="scholar-link"
+              onClick={handleURLClick}
+            >
               Google Scholar
+              {loadingState.scholar ? (
+                <Loader
+                  type="Puff"
+                  color="#00BFFF"
+                  height={100}
+                  width={100}
+                  timeout={3000} //3 secs
+                />
+              ) : (
+                ""
+              )}
             </li>
           </Link>
           <Link
             passHref
             href="https://www.scopus.com/authid/detail.uri?authorId=57188638422"
           >
-            <li id="publications-scholar-link" onClick={handleURLClick}>
+            <li
+              id="publications-scholar-link"
+              name="scopus-link"
+              onClick={handleURLClick}
+            >
               Scopus
             </li>
           </Link>
