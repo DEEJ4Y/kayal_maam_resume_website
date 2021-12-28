@@ -14,7 +14,25 @@ const PublicationsPage = () => {
           <h2 style={{ fontWeight: 800 }}>Publications</h2>
           <p>
             Only a few of my publications are listed here. For more details
-            visit my Google Scholar page and my Scopus page.
+            visit my{" "}
+            <Link
+              passHref
+              href={
+                "https://scholar.google.com/citations?user=GeOfGFoAAAAJ&hl=en"
+              }
+            >
+              Google Scholar
+            </Link>{" "}
+            page and my{" "}
+            <Link
+              passHref
+              href={
+                "https://www.scopus.com/authid/detail.uri?authorId=57188638422"
+              }
+            >
+              Scopus
+            </Link>{" "}
+            page.
           </p>
           <ul>
             {publications.map((publication, idx) => {
