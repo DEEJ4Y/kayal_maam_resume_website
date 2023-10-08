@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
     "build": "next build && next export",
     "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
     "start": "next start",
@@ -12,6 +12,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+    "cross-env": "^7.0.3",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.1",
@@ -22,5 +23,8 @@
   "devDependencies": {
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.1"
+  },
+  "engines": {
+    "node": "^18"
   }
 }
