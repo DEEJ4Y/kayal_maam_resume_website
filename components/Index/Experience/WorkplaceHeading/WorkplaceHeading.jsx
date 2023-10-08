@@ -8,16 +8,16 @@ const WorkplaceHeading = ({ name }) => {
 
   const onScreen = useOnScreen(ref, "0px");
   return (
-    <h3
+    <h5
       className={
         onScreen
-          ? `${styles["workplace-heading"]} animate__animated animate__fadeInLeft`
-          : `${styles["workplace-heading"]} animate__animated animate__fadeOutLeft`
+          ? `${styles["workplace-heading"]} animate__animated animate__fadeInLeft ps-0`
+          : `${styles["workplace-heading"]} animate__animated animate__fadeOutLeft ps-0`
       }
       ref={ref}
     >
       {name}
-    </h3>
+    </h5>
   );
 };
 

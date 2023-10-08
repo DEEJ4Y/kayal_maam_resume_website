@@ -16,7 +16,7 @@ const ExperienceItem = ({ role, duration, current }) => {
       }
       ref={ref}
     >
-      <h4 className={styles["experience-role"]}>{role}</h4>
+      <h6 className={styles["experience-role"]}>{role}</h6>
       <p className={styles["experience-duration"]}>
         {current ? (
           <span>

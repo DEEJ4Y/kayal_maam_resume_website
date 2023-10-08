@@ -5,11 +5,14 @@
 
 .experience-role {
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .experience-duration {
+  font-weight: 300;
   font-style: italic;
   padding-top: 0;
+  margin-top: 0.25rem;
 }
 
 @media (max-width: 768px) {

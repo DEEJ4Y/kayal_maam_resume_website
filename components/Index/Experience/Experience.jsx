@@ -36,27 +36,42 @@ const Experience = () => {
             </strong>
           </h3>
         </div>
-        {/* <div className="text-center">
-          <div className="col-lg-6 col-md-12 col-sm-12"> 
-           <WorkplaceHeading name="SRMIST" />
-          <ExperienceItem
-            role="Assistant Professor, SRMIST"
-            duration="Since January 2 2003"
-            current
-          />
+        <div className="text-center row justify-content-center">
+          <div className="col-lg-4 col-md-12 col-sm-12">
+            <WorkplaceHeading name="University of Arts, London" />
+            <ExperienceItem
+              role="Senior Lecturer and Course Leader, Data Science and Artificial Intelligence, Creative Computing Institute"
+              duration="Since June 2023"
+              current
+            />
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12">
-          <WorkplaceHeading name="Other" />
-          <ExperienceItem
-            role="Lecturer, Mariana Engineering College"
-            duration="June 1 2002 - December 30 2002"
-          />
-          <ExperienceItem
-            role="Lecturer, Sastha Engineering College"
-            duration="June 1 2001 - May 30 2002"
-          />
+          <div className="col-lg-4 col-md-12 col-sm-12">
+            <WorkplaceHeading name="SRMIST" />
+            <ExperienceItem
+              role="Assistant Director, International Relations Office, SRMIST"
+              duration="December 2022 - May 2023"
+            />
+            <ExperienceItem
+              role="Associate Professor, SRMIST"
+              duration="December 2022 - May 2023"
+            />
+            <ExperienceItem
+              role="Assistant Professor, SRMIST"
+              duration="January 2 2003 - December 2022"
+            />
           </div>
-        </div> */}
+          <div className="col-lg-4 col-md-12 col-sm-12">
+            <WorkplaceHeading name="Previous Experience" />
+            <ExperienceItem
+              role="Lecturer, Mariana Engineering College"
+              duration="June 1 2002 - December 30 2002"
+            />
+            <ExperienceItem
+              role="Lecturer, Sastha Engineering College"
+              duration="June 1 2001 - May 30 2002"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

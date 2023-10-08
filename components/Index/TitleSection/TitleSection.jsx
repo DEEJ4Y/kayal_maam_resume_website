@@ -54,14 +54,13 @@ const TitleSection = () => {
               Dr. Kayalvizhi Jayavel Ph.D
             </h1>
             <p className={styles["title-desc"]}>
-              Assistant Director, International Relations Office
+              Senior Lecturer and Course Leader, Data Science and Artificial
+              Intelligence
             </p>
             <p className={styles["title-desc"]}>
-              Associate Professor, School of Computing
+              Creative Computing Institute, University of Arts
             </p>
-            <p className={styles["title-desc"]}>
-              SRM Institute of Science and Technology
-            </p>
+            <p className={styles["title-desc"]}>London, UK</p>
             <Link passHref href="/#contact">
               <button
                 className={`btn bg-accent text-accent btn-lg ${styles["title-button"]}`}
