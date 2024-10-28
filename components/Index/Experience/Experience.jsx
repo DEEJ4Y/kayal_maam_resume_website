@@ -1,12 +1,12 @@
-import styles from "./Experience.module.css";
+import styles from './Experience.module.css';
 
-import WorkplaceHeading from "./WorkplaceHeading/WorkplaceHeading";
-import ExperienceItem from "./ExperienceItem/ExperienceItem";
+import WorkplaceHeading from './WorkplaceHeading/WorkplaceHeading';
+import ExperienceItem from './ExperienceItem/ExperienceItem';
 
-import CountUp from "react-countup";
+import CountUp from 'react-countup';
 
-import { useRef } from "react";
-import useOnScreen from "../../../utils/useOnScreen";
+import { useRef } from 'react';
+import useOnScreen from '../../../utils/useOnScreen';
 
 const Experience = () => {
   const date = new Date();
@@ -18,16 +18,16 @@ const Experience = () => {
   }
 
   const experienceRef = useRef();
-  const experienceOnScreen = useOnScreen(experienceRef, "0px");
+  const experienceOnScreen = useOnScreen(experienceRef, '0px');
 
   return (
     <div id="experience" className={`bg-accent text-accent container-padding`}>
       <div className="container-fluid">
         <div className="text-center">
           {/* <h2 className={styles["heading"]}>Experience</h2> */}
-          <h3 className={styles["sub-heading"]} ref={experienceRef}>
-            Total Experience:{" "}
-            <strong className={styles["sub-heading-bold"]}>
+          <h3 className={styles['sub-heading']} ref={experienceRef}>
+            Total Experience:{' '}
+            <strong className={styles['sub-heading-bold']}>
               <CountUp
                 end={experienceOnScreen ? experienceInYears : 0}
                 duration={3}
@@ -49,11 +49,11 @@ const Experience = () => {
             <WorkplaceHeading name="SRMIST" />
             <ExperienceItem
               role="Assistant Director, International Relations Office, SRMIST"
-              duration="December 2022 - May 2023"
+              duration="Oct 2022 - May 2023"
             />
             <ExperienceItem
               role="Associate Professor, SRMIST"
-              duration="December 2022 - May 2023"
+              duration="Jan 2022 - May 2023"
             />
             <ExperienceItem
               role="Assistant Professor, SRMIST"
