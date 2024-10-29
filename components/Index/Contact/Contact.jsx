@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Tooltip from "react-bootstrap/Tooltip";
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 const Contact = () => {
   const copyToClipboard = (e) => {
@@ -14,21 +14,21 @@ const Contact = () => {
       className="container-padding text-center text-theme bg-theme"
     >
       <div className="container-fluid">
-        <h2 style={{ marginBottom: "2rem" }}>Contact Me</h2>
+        <h2 style={{ marginBottom: '2rem' }}>Contact Me</h2>
         <p id="email1">
           <OverlayTrigger
-            placement={"right"}
+            placement={'right'}
             overlay={<Tooltip id="tooltip-right">Click to copy.</Tooltip>}
           >
             <span className="clickable" onClick={copyToClipboard}>
-              kayalvij@srmist.edu.in
+              k.jayavel@arts.ac.uk
             </span>
           </OverlayTrigger>
         </p>
 
         <p id="email2">
           <OverlayTrigger
-            placement={"right"}
+            placement={'right'}
             overlay={<Tooltip id="tooltip-right">Click to copy.</Tooltip>}
           >
             <span className="clickable" onClick={copyToClipboard}>
@@ -45,17 +45,17 @@ const Contact = () => {
             Linkedin
           </Link>
 
-          <p id="mobile" className="mt-3">
-            Mobile Number:{" "}
+          {/* <p id="mobile" className="mt-3">
+            Mobile Number:{' '}
             <OverlayTrigger
-              placement={"right"}
+              placement={'right'}
               overlay={<Tooltip id="tooltip-right">Click to copy.</Tooltip>}
             >
               <span className="clickable" onClick={copyToClipboard}>
                 +91 98844 96212
               </span>
             </OverlayTrigger>
-          </p>
+          </p> */}
         </p>
       </div>
     </div>

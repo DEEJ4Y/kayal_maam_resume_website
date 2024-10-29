@@ -1,12 +1,12 @@
-import MembershipItem from "./MembershipItem/MembershipItem";
-import styles from "./Memberships.module.css";
+import MembershipItem from './MembershipItem/MembershipItem';
+import styles from './Memberships.module.css';
 
-import { useRef } from "react";
-import useOnScreen from "../../../utils/useOnScreen";
+import { useRef } from 'react';
+import useOnScreen from '../../../utils/useOnScreen';
 
 const Memberships = () => {
   const ref = useRef();
-  const onScreen = useOnScreen(ref, "0px");
+  const onScreen = useOnScreen(ref, '0px');
   return (
     <div
       id="memberships"
@@ -17,7 +17,7 @@ const Memberships = () => {
         <div
           className={onScreen ? `animate__animated animate__fadeInDown` : ``}
         >
-          <h2 className={styles["heading"]}>Memberships</h2>
+          <h2 className={styles['heading']}>Memberships</h2>
           <ul>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-12">
@@ -28,17 +28,17 @@ const Memberships = () => {
 
                 <MembershipItem
                   text="Member in Indian Science Congress Association (ISCA)"
-                  duration="2013 - Till Date"
+                  duration="2013 - 2023"
                 />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <MembershipItem
                   text="Indian Society of Technical Education"
-                  duration="2015 - Till Date"
+                  duration="2015 - 2023"
                 />
                 <MembershipItem
                   text="The Institute of Engineers (India)"
-                  duration="2019 - Till Date"
+                  duration="2019 - 2022"
                 />
               </div>
             </div>
